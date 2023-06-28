@@ -18,5 +18,5 @@ const airdrop = (address, amount) => __awaiter(void 0, void 0, void 0, function*
     yield conn.confirmTransaction(signature);
 });
 exports.airdrop = airdrop;
-(0, exports.airdrop)("4VUsxdzEDc4qiFJSfiWuYQnFjQDsW2hXkevUGpCoweUX", 4);
+// airdrop("4VUsxdzEDc4qiFJSfiWuYQnFjQDsW2hXkevUGpCoweUX", 4);
 //# sourceMappingURL=index.js.map

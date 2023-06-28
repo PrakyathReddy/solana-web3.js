@@ -23,3 +23,13 @@ From here, we will be doing a bunch of small projects and I would like structure
    Now if u go to sol-explorer you will find updated balance after the airdrop.
 
 2. Show balance given an address
+
+3. TransferSol
+   From one account (with both public and private key) to another account (with Public key)
+   Create a new wallet here to transfer sol from.
+   To avoid overriding existing wallet, run 'solana-keygen new --outfile' ~/.config/solana/id2.json'
+   cat into the new address from previous command and copy the secret code, to create a keypair from it.
+   For that, first create a new uint8 array from the secret key.
+   Then, initialize the keypair by calling the 'from' secret keypair function on the keypair class.
+   Define another wallet to send the lamports to.
+   Add some Sol to the from keypair.
