@@ -22,4 +22,4 @@ From here, we will be doing a bunch of small projects and I would like structure
    Then, run it 'node /dist/index.js
    Now if u go to sol-explorer you will find updated balance after the airdrop.
 
-2. querying the RPC server for amount of Solana that someone owns and try to airdrop them some sol programmatically and see if the amount increased or not.
+2. Show balance given an address
